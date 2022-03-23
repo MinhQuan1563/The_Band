@@ -1,0 +1,70 @@
+/* PC */
+@media (min-width: 1024px) {
+    .heading-search .ti-menu {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .heading-search .ti-menu {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    /* Common */
+    .res-col-full {
+        width: 100%;
+    }
+    /* Header */    
+    .header-nav > li {
+        float: none;
+    }
+
+    .header-nav > li:first-child {
+        display: inline-block;
+    }
+
+    #heading {
+        overflow: hidden;
+    }
+    /* Slider */
+    #slider .slider-text {
+        display: none;
+    }
+    /* Icon */
+    .heading-search .ti-search {
+        display: none;
+    }
+
+    .heading-search {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .heading-search:hover {
+        color: black;
+        background-color: #ccc;
+    }
+    /* Content-theBand */
+
+    /* Content-TourDate */
+    .place-text .buy-tickets {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    .tour-place .place {
+        padding-top: 8px;
+        padding-bottom: 16px;
+    }
+
+    .form-section {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+}
